@@ -54,4 +54,4 @@ import { checkDateHourDifference } from "./helper.js";
 import { setupSocket } from "./socket.js";
 app.use("/", routes);
 
-server.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
+server.listen(PORT, () => console.log(`Server is running at PORT ${PORT}`));
